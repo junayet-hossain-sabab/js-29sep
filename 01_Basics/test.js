@@ -1,0 +1,1 @@
+console.log("Junayet is learning JavaScript")
