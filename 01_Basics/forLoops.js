@@ -13,3 +13,23 @@ const family = "Smith";
 for (const memChar of family) {
     console.log(memChar);
 }
+
+
+// for of loops for map method 
+
+const myAy = new Map();
+
+myAy.set("BD", "Bangladesh");
+myAy.set("IN", "India");
+myAy.set("JPN", "Japan");
+myAy.set("UK", "United Kingdom");
+
+for (const [key, value] of myAy) {
+    console.log(key, value);
+}
+for (const [key,] of myAy) {
+    console.log(key);
+}
+for (const [key, value] of myAy) {
+    console.log(`Key Is ${ key } & Value Is ${ value }`);
+} 
