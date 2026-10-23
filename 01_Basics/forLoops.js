@@ -1,3 +1,8 @@
+
+
+// FOR OF LOOP START 
+
+
 // for of loop in array
 
 const foodUnit = [10, 20, 30, 40, 50];
@@ -33,3 +38,6 @@ for (const [key,] of myAy) {
 for (const [key, value] of myAy) {
     console.log(`Key Is ${ key } & Value Is ${ value }`);
 } 
+
+// FOR OF LOOP END 
+
